@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./Image/android-icon-144x144.png"
+      type="image/x-icon"
+    />
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="./dist/style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="section">
+        <div class="heading">
+          <h2>QR Code Generator</h2>
+        </div>
+        <div class="content">
+          <label for="text">Please Enter your text or URL</label>
+          <input
+            type="text"
+            name="text"
+            id="text-input"
+            placeholder="Text or URL"
+          />
+          <span class="text" id="text"></span>
+          <img src="" alt="QR-img" class="show-img" id="qr-image" />
+          <button type="button" id="generate-btn">Generate QR Code</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
